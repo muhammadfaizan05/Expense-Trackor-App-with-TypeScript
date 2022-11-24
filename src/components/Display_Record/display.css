@@ -1,0 +1,51 @@
+.description{
+    text-align: left;
+ }
+ .mainhistory{
+     width: 30%;
+     margin: auto;
+ }
+ table{
+     width: 100%;
+     margin: auto;
+ } 
+ .mousein{
+     background-color: skyblue;
+     cursor: pointer;
+ }
+ .hidden{
+     display: none;
+ }
+ .tablereow{
+     font-size: large;
+     background-color: skyblue;
+ }
+.icon{
+    border-left: 5px solid brown;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(250, 7, 7);
+ }
+ @media (max-width:500px) {
+  
+    .description{
+        text-align: left;
+     }
+     .mainhistory{
+         width: 70%;
+         margin: auto;
+     }
+     table{
+         width: 100%;
+         margin: auto;
+     } 
+     .mousein{
+         background-color: skyblue;
+         cursor: pointer;
+     }
+     .tablereow{
+         font-size: large;
+         background-color: skyblue;
+     }
+ }
